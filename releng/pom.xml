@@ -36,7 +36,7 @@
 		</repository>
 		<repository>
 			<id>maven3</id>
-			<url>http://services.typefox.io/open-source/jenkins/job/mwe/job/master/lastSuccessfulBuild/artifact/build/maven-repo/</url>
+			<url>https://oss.sonatype.org/content/repositories/orgeclipseemf-1065</url>
 		</repository>
 	</repositories>
 

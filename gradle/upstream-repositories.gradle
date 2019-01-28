@@ -28,7 +28,7 @@ repositories {
   if (findProperty('useJenkinsSnapshots') == 'true') {
     maven { url "http://services.typefox.io/open-source/jenkins/job/lsp4j/job/master/$MVN_REPOPATH" }
     maven { url jenkinsPipelineRepo('xtext-lib','autodetect') }
-    maven { url 'http://services.typefox.io/open-source/jenkins/job/mwe/job/master/lastSuccessfulBuild/artifact/build/maven-repo/' }
+    maven { url 'https://oss.sonatype.org/content/repositories/orgeclipseemf-1065' }
   } else {
     mavenLocal()
     maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
